@@ -1,0 +1,23 @@
+{
+  "name": "spotify_top_tracks",
+  "version": "1.0.0",
+  "description": "Ok, let's play around with the Spotify API. They have a JavaScript SDK, but feel free to use whichever you prefer (I believe there's a Ruby one too).   So you'll build an app that will let users log in using Spotify and will then fetch their Top tracks.  The user can then select some of these tracks and you will show recommendations based on combination of selected tracks  You can style it however you like, but please make the app responsive.  I hope the task is simple enough to leave you some time to be creative with it and complex enough to show off your skills. I recommend you add Redux to the stack to keep states clean and manageable.  No DB is necessary (You can keep all data in the state)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielefrisanco/spotify_top_tracks.git"
+  },
+  "author": "daniele frisanco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielefrisanco/spotify_top_tracks/issues"
+  },
+  "homepage": "https://github.com/danielefrisanco/spotify_top_tracks#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

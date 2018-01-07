@@ -14,3 +14,10 @@ Top Trracks
 https://developer.spotify.com/web-api/console/get-current-user-top-artists-and-tracks/
 show recommendations
 https://developer.spotify.com/web-api/console/get-recommendations/
+
+
+
+
+
+
+ docker run -p 8080:8080 spotify_top_tracks
